@@ -67,12 +67,12 @@
 						>
 					</li>
 					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+					</li>
+					<li class="nav-item">
 						<a class="nav-link js-scroll-trigger" href="#education"
 							>Education</a
 						>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
 					</li>
 				</ul>
 			</div>
@@ -99,16 +99,17 @@
 						</p>
 					</div>
 					<div class="social-icons">
-						<a
+						<a 
+							title="Check out my LinkedIn!"
 							href="https://www.linkedin.com/in/akbar-zafar-033526169/"
 							target="_blank"
 						>
 							<i class="fab fa-linkedin-in"></i>
 						</a>
-						<a href="https://github.com/AkbarZafar" target="_blank">
+						<a title="Check out my GitHub!" href="https://github.com/AkbarZafar" target="_blank">
 							<i class="fab fa-github"></i>
 						</a>
-						<a href="resume.pdf" target="_blank">
+						<a title="Check out my Resume!" href="resume.pdf" target="_blank">
 							<i class="far fa-file"></i>
 						</a>
 					</div>
@@ -128,67 +129,88 @@
 						class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
 					>
 						<div class="resume-content">
-							<h3 class="mb-0">Software Engineer Intern</h3>
+							<h3 class="mb-0 text-primary"">Cloud Infrastructure Developer</h3>
 							<div class="subheading mb-3 bold">
-								Kaleidescape Inc.
+								SAP
 							</div>
-							<ul class="bold">
-								Worked in a scrum team of 12, utilizing Java, JavaScript, Linux, FFMPEG and PostgreSQL.
+							<ul>
+								Implemented a customized Kubernetes management engine to execute pipelines over distributed clusters
 							</ul>
 							<ul>
-								Leveraged FFMPEG and FFPROBE to develop async tools providing PSNR (peak signal‑to‑noise ratio), 
-								MSE(mean‑square error), and YCBCR color space stats of a specified frame.
+								Restructured the main CI/CD pipeline from Jenkins to Argo Workflows parallelizing independent scheduled jobs
 							</ul>
 							<ul>
-								Implemented a custom image‑differencing algorithm for MXF/MP4 with region selection for further analysis.
+								Resolved multiple resource availability edge cases during cloud database cleanup
 							</ul>
 							<ul>
-								Optimized transcoding pipeline for operations team reducing idle time by 99%.
-							</ul>
-							<ul>
-								Developed a real‑time dashboard for applying/previewing custom filters with visualized breakdown of YCBCRcolor spaces.
+								Replaced the deprecated internal database management system with the current industry standard
 							</ul>
 						</div>
 						
 						<div class="resume-date text-md-right">
-							<span class="text-primary">Jan 2021 - April 2021</span>
+							<span class="text-primary">Dec 2021 - Dec 2021</span>
 						</div>
 					</div>
 					<div
 						class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
 					>
 						<div class="resume-content">
-							<h3 class="mb-0">Software Developer</h3>
+							<h3 class="mb-0 text-primary">Software Engineer Intern</h3>
+							<div class="subheading mb-3 bold">
+								Kaleidescape Inc.
+							</div>
+							<ul>
+								Leveraged FFMPEG to develop async tools providing image stats of a specified frame in a real‑time dashboard
+							</ul>
+							<ul>
+								Implemented a custom MXF/MP4 image‑differencing algorithm with region selection for further analysis
+							</ul>
+							<ul>
+								Optimized transcoding pipeline by allowing shorter transcodes reducing operations team idle time by 99%
+							</ul>
+							<ul>
+								Developed an environment for applying and previewing custom filters with visualized breakdown of color spaces
+							</ul>
+						</div>
+						
+						<div class="resume-date text-md-right">
+							<span class="text-primary">Jan 2021 - Apr 2021</span>
+						</div>
+					</div>
+					<div
+						class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
+					>
+						<div class="resume-content">
+							<h3 class="mb-0 text-primary">Software Developer</h3>
 							<div class="subheading mb-3 bold">
 								University of Ottawa, Engineering OUTREACH
 							</div>
-							<ul class="bold">
-								Worked in a scrum team of 6-8, utilizing Apache Sling, Java,
-								Angular, PostgreSQL, Protractor, and Ruby
+							<ul>
+								Migrated Selenium tests to Protractor using page object methodologies improving test time by 60%
 							</ul>
 							<ul>
-								Improved test time by 60% by migrating Selenium tests to
-								Protractor using page object methodologies.
+								Created a landing page customization feature to support white labeling increasing customer engagement							</ul>
+							<ul>
+								Introduced a region dashboard utilizing a REST API allowing customers to manage their personal regions
 							</ul>
 							<ul>
-								Increased customer engagement by creating a customization
-								feature to support white labeling.
-							</ul>
-							<ul>
-								Introduced a region dashboard allowing customers to manage their
-								personal regions.
-							</ul>
-							<ul>
-								Restructured backend by refactoring old endpoints into reusable
-								components and implemented unit tests to produce maintainable
-								code.
-							</ul>
+								Refactored API endpoints in Java and implemented unit tests to improve readability							</ul>
 						</div>
 						
 						<div class="resume-date text-md-right">
 							<span class="text-primary">May 2020 - Aug 2020</span>
 						</div>
 					</div>
+				</div>
+			</section>
+
+			<hr class="m-0" />
+
+			<section
+				class="resume-section p-3 p-lg-5 d-flex align-items-center"
+				id="projects"
+			>
+				<div class="w-100">
 					<h2 class="mb-5">Projects</h2>
 					<div class="projects-grid">
 						<div class="card wrap">
@@ -223,7 +245,6 @@
 					</div>
 				</div>
 			</section>
-
 			<hr class="m-0" />
 
 			<section
@@ -251,52 +272,21 @@
 							<span class="text-primary">Sept 2019 - April 2024</span>
 						</div>
 					</div>
+					<div
+						class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
+					>
+						<div class="resume-content">
+							<h3 class="mb-0">Erindale Secondary School</h3>
+							<div class="subheading mb-3">
+								High School Diploma
+							</div>
+						</div>
+						<div class="resume-date text-md-right">
+							<span class="text-primary">Sept 2015 - June 2019</span>
+						</div>
+					</div>
 				</div>
 			</section>
-
-			<hr class="m-0" />
-
-			<section
-				class="resume-section p-3 p-lg-5 d-flex align-items-center"
-				id="skills"
-			>
-				<div class="w-100">
-					<h2 class="mb-5">Skills</h2>
-
-					<div class="subheading bold">Programming Languages</div>
-					<ul class="list-inline skill-item">
-						<li class="list-inline-item">Java</li>
-						<li class="list-inline-item">TypeScript</li>
-						<li class="list-inline-item">JavaScript</li>
-						<li class="list-inline-item">SQL</li>
-						<li class="list-inline-item">C++</li>
-						<li class="list-inline-item">HTML/CSS</li>
-						<li class="list-inline-item">Python</li>
-					</ul>
-					<div class="subheading bold">Frameworks</div>
-					<ul class="list-inline skill-item">
-						<li class="list-inline-item">Angular</li>
-						<li class="list-inline-item">React Native</li>
-						<li class="list-inline-item">Flask</li>            
-						<li class="list-inline-item">Django</li>
-            <li class="list-inline-item">Protractor</li>
-						<li class="list-inline-item">Selenium</li>
-					</ul>
-					<div class="subheading bold">Tools</div>
-					<ul class="list-inline skill-item">
-						<li class="list-inline-item">Git</li>
-						<li class="list-inline-item">Jira</li>
-						<li class="list-inline-item">Eclipse</li>
-						<li class="list-inline-item">Visual Studio Code</li>
-						<li class="list-inline-item">Docker</li>
-						<li class="list-inline-item">PostgreSQL</li>
-						<li class="list-inline-item">TravisCI</li>
-						<li class="list-inline-item">Unity</li>
-						<li class="list-inline-item">Linux</li>
-					</ul>
-				</div>
-			</section>
-
 			<hr class="m-0" />
 		</div>
 
